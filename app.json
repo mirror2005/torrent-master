@@ -1,0 +1,34 @@
+{
+    "name": "Video Chat Stream Telegram Bot",
+    "description": "Can Stream Live Videos, Radios, YouTube Videos & Telegram Video Files On Your Video Chat Of Channels & Groups!",
+    "repository": "https://github.com/brut-ctrl/VideoChatBot",
+    "stack": "container",
+    "keywords": [
+      "telegram",
+      "voicechat",
+      "bot",
+      "video",
+      "player",
+      "python",
+      "pyrogram",
+      "pytgcalls",
+      "videoplayer"
+    ],
+    "env": {
+      "BLA": {
+        "description": "A reply message to those who message the USER account in PM. Make it blank if you do not need this feature.",
+        "required": false
+      }
+    },
+    "formation": {
+      "worker": {
+        "quantity": 1,
+        "size": "free"
+      }
+    },
+    "buildpacks": [
+      {
+        "url": "heroku/python"
+      }
+    ]
+  }
