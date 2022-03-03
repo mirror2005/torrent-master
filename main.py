@@ -49,7 +49,9 @@ DEFAULT_SEARCH_MARKUP = [
      InlineKeyboardButton("Inline", switch_inline_query_current_chat="!tp ")],
     [InlineKeyboardButton("Search in TorrentZ", switch_inline_query_current_chat="!tz "),
      InlineKeyboardButton("Inline", switch_inline_query_current_chat="!tz ")],
-    [InlineKeyboardButton("OWNER", url="https://t.me/unkusr")]
+    [InlineKeyboardButton("OWNER", url="https://t.me/jettastic")]
+    [InlineKeyboardButton("Channel", url="https://t.me/jetbots")]
+    [InlineKeyboardButton("Our Other Bots", url="https://t.me/jetbots/26")]
 ]
 
 
